@@ -1,4 +1,4 @@
-FROM node:4.4.3
+FROM node:8.1.0
 RUN npm install -g webpack 
 RUN    echo "deb http://dl.bintray.com/sbt/debian /" |  tee -a /etc/apt/sources.list.d/sbt.list
 RUN    echo "deb http://ftp.debian.org/debian jessie-backports main" |  tee -a /etc/apt/sources.list.d/backports.list
